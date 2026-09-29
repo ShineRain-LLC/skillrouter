@@ -1,0 +1,14 @@
+{
+  "name": "skillrouter",
+  "version": "0.1.0",
+  "description": "Search engine for agent skills: describe the task, get screened and ranked third-party skills, and install the one your agent picks.",
+  "mcpServers": {
+    "skillrouter": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@skill-router/mcp@0.5.4"
+      ]
+    }
+  }
+}

@@ -28,6 +28,12 @@ claude plugin install skillrouter@skillrouter
 codex plugin marketplace add ShineRain-LLC/skillrouter
 ```
 
+**Gemini CLI**
+
+```bash
+gemini extensions install https://github.com/ShineRain-LLC/skillrouter
+```
+
 **Any agent that reads skills** (via [skills.sh](https://skills.sh))
 
 ```bash
