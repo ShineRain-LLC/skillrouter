@@ -47,12 +47,14 @@ It also registers the SkillRouter MCP server (`@skill-router/mcp`, pinned versio
 ## Network calls and data
 
 - **skillrouter.org** — `sr resolve` sends the task description you or your agent wrote, and `sr ensure` downloads the chosen skill. With an account, requests carry your SkillRouter key from `~/.skillrouter`. Nothing else from your machine is sent.
+  - skillrouter.org forwards the normalized, truncated task text (never your account, key or IP) to its ranking processor, Typesafe. Do not put sensitive information in a task description.
+  - Retention: ranking caches expire after 7 days; outcome events are kept for 97 days; queries that found nothing are kept to improve coverage and are not linked to an account. Details: https://skillrouter.org/privacy
 - **github.com** — skill sources and links point to the original repositories.
 - **registry.npmjs.org** — `npx` fetches the pinned MCP server package.
 - `community-submit` uploads a local skill only after you review a preview and explicitly agree.
 - `sr-browser` talks only to a daemon on `localhost` and the Chrome extension on your machine.
 
-Searching is free for individuals. Privacy policy: https://skillrouter.org/privacy
+Searching is free for individuals.
 
 ## License
 
