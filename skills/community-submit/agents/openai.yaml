@@ -1,0 +1,4 @@
+interface:
+  display_name: "SkillRouter Community Submit"
+  short_description: "Get a skill in a public GitHub repository indexed by SkillRouter"
+  default_prompt: "When the user wants their own agent skill (a folder with a SKILL.md in a public GitHub repository) to show up in sr resolve, use $community-submit: submit the repository address, then claim it. Never upload files or recordings from the machine."

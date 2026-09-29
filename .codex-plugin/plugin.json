@@ -1,0 +1,38 @@
+{
+  "name": "skillrouter",
+  "version": "0.1.0",
+  "description": "Search engine for agent skills: describe the task, get screened and ranked third-party skills, and install the one your agent picks.",
+  "author": {
+    "name": "SkillRouter",
+    "email": "support@skillrouter.org",
+    "url": "https://skillrouter.org"
+  },
+  "homepage": "https://skillrouter.org/SKILL.md",
+  "repository": "https://github.com/ShineRain-LLC/skillrouter",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "skill-search",
+    "agent-skills",
+    "claude-code",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SkillRouter",
+    "shortDescription": "Find the right skill for any task.",
+    "longDescription": "Search engine for agent skills: describe the task, get screened and ranked third-party skills, and install the one your agent picks.",
+    "developerName": "SkillRouter",
+    "category": "Productivity",
+    "capabilities": [
+      "Skill search",
+      "Skill install",
+      "MCP"
+    ],
+    "websiteURL": "https://skillrouter.org",
+    "defaultPrompt": [
+      "Use the best available skill for this request."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

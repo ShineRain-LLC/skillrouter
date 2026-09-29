@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "skillrouter": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@skill-router/mcp@0.5.4"
+      ]
+    }
+  }
+}

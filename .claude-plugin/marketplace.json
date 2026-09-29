@@ -1,0 +1,17 @@
+{
+  "name": "skillrouter",
+  "owner": {
+    "name": "SkillRouter",
+    "email": "support@skillrouter.org"
+  },
+  "metadata": {
+    "description": "Search engine for agent skills: describe the task, get screened and ranked third-party skills, and install the one your agent picks."
+  },
+  "plugins": [
+    {
+      "name": "skillrouter",
+      "source": "./",
+      "description": "Search engine for agent skills: describe the task, get screened and ranked third-party skills, and install the one your agent picks."
+    }
+  ]
+}

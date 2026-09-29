@@ -1,0 +1,4 @@
+interface:
+  display_name: "SkillRouter Browser"
+  short_description: "Drive any website in the user's own logged-in Chrome through sr-runtime browser"
+  default_prompt: "Use $sr-browser when a task needs a live site that no site-specific skill covers: open and read pages with sr-runtime browser, confirm with the person before any external write, hand login and human-verification walls to them, and never take focus from the user."

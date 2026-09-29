@@ -1,0 +1,16 @@
+{
+  "description": "SkillRouter session warmup; the router skill resolves site skills on demand.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sr snapshot --format hook --from-plugin auto",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

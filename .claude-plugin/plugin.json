@@ -1,0 +1,20 @@
+{
+  "name": "skillrouter",
+  "version": "0.1.0",
+  "description": "Search engine for agent skills: describe the task, get screened and ranked third-party skills, and install the one your agent picks.",
+  "author": {
+    "name": "SkillRouter",
+    "email": "support@skillrouter.org",
+    "url": "https://skillrouter.org"
+  },
+  "homepage": "https://skillrouter.org/SKILL.md",
+  "repository": "https://github.com/ShineRain-LLC/skillrouter",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "skill-search",
+    "agent-skills",
+    "claude-code",
+    "codex"
+  ]
+}

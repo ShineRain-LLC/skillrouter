@@ -1,0 +1,4 @@
+interface:
+  display_name: "SkillRouter Router"
+  short_description: "Find the right skill for any task with SkillRouter"
+  default_prompt: "Use $skillrouter-router to find the skill that fits this task: run sr resolve on what the user needs even if an installed skill seems to fit, compare the candidates with your installed skills, pick the better one, and follow the picked skill's own manual."
